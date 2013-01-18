@@ -1,25 +1,24 @@
 //
 //  ViewController.m
-//  HelloWorldSetLabel
+//  HelloWorldLabel
 //
 //  Created by Neil Taylor on 18/01/2013.
 //  Copyright (c) 2013 Aberystwyth University. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "HelloWorldLabelViewController.h"
 
-@interface ViewController ()
-
-@property (strong, nonatomic) IBOutlet UILabel *outputLabel;
+@interface HelloWorldLabelViewController ()
 
 @end
 
-@implementation ViewController
+@implementation HelloWorldLabelViewController
+
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	[self.outputLabel setText: @"Hello World, from Objective-C"];
+	
 }
 
 - (void)didReceiveMemoryWarning

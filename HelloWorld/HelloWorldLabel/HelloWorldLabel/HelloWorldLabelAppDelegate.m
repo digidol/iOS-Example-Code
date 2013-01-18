@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Aberystwyth University. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "HelloWorldLabelAppDelegate.h"
 
-@implementation AppDelegate
+@implementation HelloWorldLabelAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

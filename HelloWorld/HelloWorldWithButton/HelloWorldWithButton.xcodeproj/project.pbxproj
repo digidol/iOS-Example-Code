@@ -12,12 +12,12 @@
 		6B8B2A7116A9ACC7008A01ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8B2A7016A9ACC7008A01ED /* CoreGraphics.framework */; };
 		6B8B2A7716A9ACC7008A01ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B8B2A7516A9ACC7008A01ED /* InfoPlist.strings */; };
 		6B8B2A7916A9ACC7008A01ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B2A7816A9ACC7008A01ED /* main.m */; };
-		6B8B2A7D16A9ACC7008A01ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B2A7C16A9ACC7008A01ED /* AppDelegate.m */; };
+		6B8B2A7D16A9ACC7008A01ED /* HelloWorldWithButtonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B2A7C16A9ACC7008A01ED /* HelloWorldWithButtonAppDelegate.m */; };
 		6B8B2A7F16A9ACC7008A01ED /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B8B2A7E16A9ACC7008A01ED /* Default.png */; };
 		6B8B2A8116A9ACC7008A01ED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B8B2A8016A9ACC7008A01ED /* Default@2x.png */; };
 		6B8B2A8316A9ACC7008A01ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B8B2A8216A9ACC7008A01ED /* Default-568h@2x.png */; };
 		6B8B2A8616A9ACC7008A01ED /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B8B2A8416A9ACC7008A01ED /* MainStoryboard.storyboard */; };
-		6B8B2A8916A9ACC7008A01ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B2A8816A9ACC7008A01ED /* ViewController.m */; };
+		6B8B2A8916A9ACC7008A01ED /* HelloWorldWithButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B2A8816A9ACC7008A01ED /* HelloWorldWithButtonViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,14 +29,14 @@
 		6B8B2A7616A9ACC7008A01ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6B8B2A7816A9ACC7008A01ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6B8B2A7A16A9ACC7008A01ED /* HelloWorldWithButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorldWithButton-Prefix.pch"; sourceTree = "<group>"; };
-		6B8B2A7B16A9ACC7008A01ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6B8B2A7C16A9ACC7008A01ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B8B2A7B16A9ACC7008A01ED /* HelloWorldWithButtonAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldWithButtonAppDelegate.h; sourceTree = "<group>"; };
+		6B8B2A7C16A9ACC7008A01ED /* HelloWorldWithButtonAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldWithButtonAppDelegate.m; sourceTree = "<group>"; };
 		6B8B2A7E16A9ACC7008A01ED /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		6B8B2A8016A9ACC7008A01ED /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		6B8B2A8216A9ACC7008A01ED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		6B8B2A8516A9ACC7008A01ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		6B8B2A8716A9ACC7008A01ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6B8B2A8816A9ACC7008A01ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6B8B2A8716A9ACC7008A01ED /* HelloWorldWithButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldWithButtonViewController.h; sourceTree = "<group>"; };
+		6B8B2A8816A9ACC7008A01ED /* HelloWorldWithButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldWithButtonViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +83,11 @@
 		6B8B2A7216A9ACC7008A01ED /* HelloWorldWithButton */ = {
 			isa = PBXGroup;
 			children = (
-				6B8B2A7B16A9ACC7008A01ED /* AppDelegate.h */,
-				6B8B2A7C16A9ACC7008A01ED /* AppDelegate.m */,
+				6B8B2A7B16A9ACC7008A01ED /* HelloWorldWithButtonAppDelegate.h */,
+				6B8B2A7C16A9ACC7008A01ED /* HelloWorldWithButtonAppDelegate.m */,
 				6B8B2A8416A9ACC7008A01ED /* MainStoryboard.storyboard */,
-				6B8B2A8716A9ACC7008A01ED /* ViewController.h */,
-				6B8B2A8816A9ACC7008A01ED /* ViewController.m */,
+				6B8B2A8716A9ACC7008A01ED /* HelloWorldWithButtonViewController.h */,
+				6B8B2A8816A9ACC7008A01ED /* HelloWorldWithButtonViewController.m */,
 				6B8B2A7316A9ACC7008A01ED /* Supporting Files */,
 			);
 			path = HelloWorldWithButton;
@@ -174,8 +174,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B8B2A7916A9ACC7008A01ED /* main.m in Sources */,
-				6B8B2A7D16A9ACC7008A01ED /* AppDelegate.m in Sources */,
-				6B8B2A8916A9ACC7008A01ED /* ViewController.m in Sources */,
+				6B8B2A7D16A9ACC7008A01ED /* HelloWorldWithButtonAppDelegate.m in Sources */,
+				6B8B2A8916A9ACC7008A01ED /* HelloWorldWithButtonViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +292,7 @@
 				6B8B2A8E16A9ACC7008A01ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

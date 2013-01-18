@@ -1,14 +1,14 @@
 //
 //  AppDelegate.m
-//  HelloWorldSetLabel
+//  HelloWorldWithTextField
 //
 //  Created by Neil Taylor on 18/01/2013.
 //  Copyright (c) 2013 Aberystwyth University. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "HelloWorldWithTextFieldAppDelegate.h"
 
-@implementation AppDelegate
+@implementation HelloWorldWithTextFieldAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

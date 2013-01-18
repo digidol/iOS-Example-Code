@@ -6,15 +6,15 @@
 //  Copyright (c) 2013 Aberystwyth University. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "HelloWorldWithButtonViewController.h"
 
-@interface ViewController ()
+@interface HelloWorldWithButtonViewController ()
 
 @property (strong, nonatomic) IBOutlet UILabel *outputLabel;
 
 @end
 
-@implementation ViewController
+@implementation HelloWorldWithButtonViewController
 
 - (void)viewDidLoad
 {

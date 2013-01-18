@@ -12,12 +12,12 @@
 		6B8B2A3C16A9A7A4008A01ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8B2A3B16A9A7A4008A01ED /* CoreGraphics.framework */; };
 		6B8B2A4216A9A7A4008A01ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B8B2A4016A9A7A4008A01ED /* InfoPlist.strings */; };
 		6B8B2A4416A9A7A4008A01ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B2A4316A9A7A4008A01ED /* main.m */; };
-		6B8B2A4816A9A7A4008A01ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B2A4716A9A7A4008A01ED /* AppDelegate.m */; };
+		6B8B2A4816A9A7A4008A01ED /* HelloWorldSetLabelAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B2A4716A9A7A4008A01ED /* HelloWorldSetLabelAppDelegate.m */; };
 		6B8B2A4A16A9A7A4008A01ED /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B8B2A4916A9A7A4008A01ED /* Default.png */; };
 		6B8B2A4C16A9A7A4008A01ED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B8B2A4B16A9A7A4008A01ED /* Default@2x.png */; };
 		6B8B2A4E16A9A7A4008A01ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B8B2A4D16A9A7A4008A01ED /* Default-568h@2x.png */; };
 		6B8B2A5116A9A7A4008A01ED /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B8B2A4F16A9A7A4008A01ED /* MainStoryboard.storyboard */; };
-		6B8B2A5416A9A7A4008A01ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B2A5316A9A7A4008A01ED /* ViewController.m */; };
+		6B8B2A5416A9A7A4008A01ED /* HelloWorldSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B2A5316A9A7A4008A01ED /* HelloWorldSetViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,14 +29,14 @@
 		6B8B2A4116A9A7A4008A01ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6B8B2A4316A9A7A4008A01ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6B8B2A4516A9A7A4008A01ED /* HelloWorldSetLabel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorldSetLabel-Prefix.pch"; sourceTree = "<group>"; };
-		6B8B2A4616A9A7A4008A01ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6B8B2A4716A9A7A4008A01ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B8B2A4616A9A7A4008A01ED /* HelloWorldSetLabelAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldSetLabelAppDelegate.h; sourceTree = "<group>"; };
+		6B8B2A4716A9A7A4008A01ED /* HelloWorldSetLabelAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldSetLabelAppDelegate.m; sourceTree = "<group>"; };
 		6B8B2A4916A9A7A4008A01ED /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		6B8B2A4B16A9A7A4008A01ED /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		6B8B2A4D16A9A7A4008A01ED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		6B8B2A5016A9A7A4008A01ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		6B8B2A5216A9A7A4008A01ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6B8B2A5316A9A7A4008A01ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6B8B2A5216A9A7A4008A01ED /* HelloWorldSetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldSetViewController.h; sourceTree = "<group>"; };
+		6B8B2A5316A9A7A4008A01ED /* HelloWorldSetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldSetViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +83,11 @@
 		6B8B2A3D16A9A7A4008A01ED /* HelloWorldSetLabel */ = {
 			isa = PBXGroup;
 			children = (
-				6B8B2A4616A9A7A4008A01ED /* AppDelegate.h */,
-				6B8B2A4716A9A7A4008A01ED /* AppDelegate.m */,
+				6B8B2A4616A9A7A4008A01ED /* HelloWorldSetLabelAppDelegate.h */,
+				6B8B2A4716A9A7A4008A01ED /* HelloWorldSetLabelAppDelegate.m */,
 				6B8B2A4F16A9A7A4008A01ED /* MainStoryboard.storyboard */,
-				6B8B2A5216A9A7A4008A01ED /* ViewController.h */,
-				6B8B2A5316A9A7A4008A01ED /* ViewController.m */,
+				6B8B2A5216A9A7A4008A01ED /* HelloWorldSetViewController.h */,
+				6B8B2A5316A9A7A4008A01ED /* HelloWorldSetViewController.m */,
 				6B8B2A3E16A9A7A4008A01ED /* Supporting Files */,
 			);
 			path = HelloWorldSetLabel;
@@ -174,8 +174,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B8B2A4416A9A7A4008A01ED /* main.m in Sources */,
-				6B8B2A4816A9A7A4008A01ED /* AppDelegate.m in Sources */,
-				6B8B2A5416A9A7A4008A01ED /* ViewController.m in Sources */,
+				6B8B2A4816A9A7A4008A01ED /* HelloWorldSetLabelAppDelegate.m in Sources */,
+				6B8B2A5416A9A7A4008A01ED /* HelloWorldSetViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +292,7 @@
 				6B8B2A5916A9A7A4008A01ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -13,4 +13,7 @@
    <FileRef
       location = "group:HelloWorldWithButton/HelloWorldWithButton.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:HelloWorldWithTextField/HelloWorldWithTextField.xcodeproj">
+   </FileRef>
 </Workspace>

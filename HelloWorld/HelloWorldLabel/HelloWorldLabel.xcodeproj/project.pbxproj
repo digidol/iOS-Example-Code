@@ -12,12 +12,12 @@
 		6B8B29D416A9A6C3008A01ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8B29D316A9A6C3008A01ED /* CoreGraphics.framework */; };
 		6B8B29DA16A9A6C3008A01ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B8B29D816A9A6C3008A01ED /* InfoPlist.strings */; };
 		6B8B29DC16A9A6C3008A01ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B29DB16A9A6C3008A01ED /* main.m */; };
-		6B8B29E016A9A6C3008A01ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B29DF16A9A6C3008A01ED /* AppDelegate.m */; };
+		6B8B29E016A9A6C3008A01ED /* HelloWorldLabelAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B29DF16A9A6C3008A01ED /* HelloWorldLabelAppDelegate.m */; };
 		6B8B29E216A9A6C3008A01ED /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B8B29E116A9A6C3008A01ED /* Default.png */; };
 		6B8B29E416A9A6C3008A01ED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B8B29E316A9A6C3008A01ED /* Default@2x.png */; };
 		6B8B29E616A9A6C3008A01ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B8B29E516A9A6C3008A01ED /* Default-568h@2x.png */; };
 		6B8B29E916A9A6C3008A01ED /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B8B29E716A9A6C3008A01ED /* MainStoryboard.storyboard */; };
-		6B8B29EC16A9A6C3008A01ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B29EB16A9A6C3008A01ED /* ViewController.m */; };
+		6B8B29EC16A9A6C3008A01ED /* HelloWorldLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B29EB16A9A6C3008A01ED /* HelloWorldLabelViewController.m */; };
 		6B8B2A5B16A9A7EB008A01ED /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 6B8B2A5A16A9A7EB008A01ED /* Readme.md */; };
 /* End PBXBuildFile section */
 
@@ -30,14 +30,14 @@
 		6B8B29D916A9A6C3008A01ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6B8B29DB16A9A6C3008A01ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6B8B29DD16A9A6C3008A01ED /* HelloWorldLabel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorldLabel-Prefix.pch"; sourceTree = "<group>"; };
-		6B8B29DE16A9A6C3008A01ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6B8B29DF16A9A6C3008A01ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B8B29DE16A9A6C3008A01ED /* HelloWorldLabelAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLabelAppDelegate.h; sourceTree = "<group>"; };
+		6B8B29DF16A9A6C3008A01ED /* HelloWorldLabelAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLabelAppDelegate.m; sourceTree = "<group>"; };
 		6B8B29E116A9A6C3008A01ED /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		6B8B29E316A9A6C3008A01ED /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		6B8B29E516A9A6C3008A01ED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		6B8B29E816A9A6C3008A01ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		6B8B29EA16A9A6C3008A01ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6B8B29EB16A9A6C3008A01ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6B8B29EA16A9A6C3008A01ED /* HelloWorldLabelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLabelViewController.h; sourceTree = "<group>"; };
+		6B8B29EB16A9A6C3008A01ED /* HelloWorldLabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLabelViewController.m; sourceTree = "<group>"; };
 		6B8B2A5A16A9A7EB008A01ED /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,11 +86,11 @@
 		6B8B29D516A9A6C3008A01ED /* HelloWorldLabel */ = {
 			isa = PBXGroup;
 			children = (
-				6B8B29DE16A9A6C3008A01ED /* AppDelegate.h */,
-				6B8B29DF16A9A6C3008A01ED /* AppDelegate.m */,
+				6B8B29DE16A9A6C3008A01ED /* HelloWorldLabelAppDelegate.h */,
+				6B8B29DF16A9A6C3008A01ED /* HelloWorldLabelAppDelegate.m */,
 				6B8B29E716A9A6C3008A01ED /* MainStoryboard.storyboard */,
-				6B8B29EA16A9A6C3008A01ED /* ViewController.h */,
-				6B8B29EB16A9A6C3008A01ED /* ViewController.m */,
+				6B8B29EA16A9A6C3008A01ED /* HelloWorldLabelViewController.h */,
+				6B8B29EB16A9A6C3008A01ED /* HelloWorldLabelViewController.m */,
 				6B8B29D616A9A6C3008A01ED /* Supporting Files */,
 			);
 			path = HelloWorldLabel;
@@ -178,8 +178,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B8B29DC16A9A6C3008A01ED /* main.m in Sources */,
-				6B8B29E016A9A6C3008A01ED /* AppDelegate.m in Sources */,
-				6B8B29EC16A9A6C3008A01ED /* ViewController.m in Sources */,
+				6B8B29E016A9A6C3008A01ED /* HelloWorldLabelAppDelegate.m in Sources */,
+				6B8B29EC16A9A6C3008A01ED /* HelloWorldLabelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
