@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8A096871-9038-49FF-804E-06FC3148D95B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SpeechExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7EF9902B-601E-48E8-B0BD-10D045DAFB74</key>
+		<string>https://svn.dcs.aber.ac.uk/staff/nst/teaching/m2220</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>trunk/iOS/code/SpeechExample/SpeechExample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7EF9902B-601E-48E8-B0BD-10D045DAFB74</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>7EF9902B-601E-48E8-B0BD-10D045DAFB74</key>
+		<string>https://svn.dcs.aber.ac.uk/staff/nst/teaching</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://svn.dcs.aber.ac.uk/staff/nst/teaching/m2220/trunk/iOS/code/SpeechExample/SpeechExample.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7EF9902B-601E-48E8-B0BD-10D045DAFB74</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>m2220/branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
+			<string>m2220/tags</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>m2220/trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7EF9902B-601E-48E8-B0BD-10D045DAFB74</string>
+			<key>IDESourceControlWCCName</key>
+			<string>m2220-svn</string>
+		</dict>
+	</array>
+</dict>
+</plist>
