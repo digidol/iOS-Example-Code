@@ -4,9 +4,12 @@ HelloWorld
 This workspace includes a number of projects which show how you can progress from a simple application that displays Hello World on a label, to an application that will read a name from a text field and use it as part of the message. 
 
 1. HelloWorldLabel - No code. This is a default project with an extra label.
+
 2. HelloWorldSetLabel - A bit of code. The text for a label is set by code. 
+
 3. HelloWorldWithButton - A bit of code. A button is used to trigger an update to a label.
-4. HelloWorldWithTextField - A bit more code. A text field contains the text to be used as part of the Hello message. 
+
+4. HelloWorldWithTextField - A bit more code. A text field contains the text to be used as part of the Hello message.
 
 HelloWorldLabel
 ---------------
