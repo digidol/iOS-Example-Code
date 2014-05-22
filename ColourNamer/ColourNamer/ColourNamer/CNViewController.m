@@ -38,7 +38,7 @@
                            alpha: 1.0];
 }
 
--(void) updateBackgroundColour{
+-(void) updateBackgroundColour {
     UIView *myView = [self view];
     myView.backgroundColor = [self calculateColor];
 }
@@ -46,15 +46,11 @@
 - (IBAction)sliderUpdated:(id)sender {
     
     self.view.backgroundColor = [self calculateColor];
+    self.colourLabel.text = @"Unknown";
     
 }
 
 - (IBAction)resetColour:(id)sender {
-    //[self.redSlider setValue: 0.5 animated: YES];
-    //[self.greenSlider setValue: 0.5 animated: YES];
-    //[self.blueSlider setValue: 0.5 animated: YES];
-    
-    /* without animation */
     self.redSlider.value = 0.5;
     self.blueSlider.value = 0.5;
     self.greenSlider.value = 0.5;

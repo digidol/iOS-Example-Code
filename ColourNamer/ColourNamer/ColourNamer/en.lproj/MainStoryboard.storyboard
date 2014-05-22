@@ -17,26 +17,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5bS-QV-dH4">
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5bS-QV-dH4">
                                 <rect key="frame" x="0.0" y="23" width="320" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="19b-77-HFr">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="19b-77-HFr">
                                 <rect key="frame" x="0.0" y="526" width="320" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lgi-dc-oKl">
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lgi-dc-oKl">
                                         <rect key="frame" x="260" y="6" width="40" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Reset">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
-                                        <connections>
-                                            <action selector="resetColour:" destination="2" eventType="touchUpInside" id="HbQ-ya-5Gq"/>
-                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a3a-mP-Q3b">
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a3a-mP-Q3b">
                                         <rect key="frame" x="20" y="6" width="114" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Name the colour">
@@ -71,7 +68,7 @@
                                 <color key="minimumTrackTintColor" red="1" green="0.1318776163" blue="0.065605759759999993" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
-                                    <action selector="sliderUpdated:" destination="2" eventType="valueChanged" id="CCU-3c-T5D"/>
+                                    <action selector="sliderUpdated:" destination="2" eventType="valueChanged" id="hI6-Jg-b3C"/>
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="qDa-j1-lFP">
@@ -96,12 +93,17 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="NmO-Rt-ZkG" firstAttribute="top" secondItem="LUh-Rm-Zhk" secondAttribute="bottom" constant="69" id="0h5-7C-Fta"/>
+                            <constraint firstAttribute="trailing" secondItem="19b-77-HFr" secondAttribute="trailing" id="3EX-Vs-A5H"/>
+                            <constraint firstItem="19b-77-HFr" firstAttribute="leading" secondItem="5bS-QV-dH4" secondAttribute="leading" id="8PT-0P-tJj"/>
                             <constraint firstItem="GIB-KD-yOQ" firstAttribute="top" secondItem="LUh-Rm-Zhk" secondAttribute="bottom" constant="13" id="8nW-nm-XJM"/>
+                            <constraint firstItem="19b-77-HFr" firstAttribute="trailing" secondItem="5bS-QV-dH4" secondAttribute="trailing" id="ILy-wn-S1P"/>
                             <constraint firstItem="GIB-KD-yOQ" firstAttribute="leading" secondItem="fAz-nK-9RS" secondAttribute="trailing" constant="8" id="PUh-LO-fiC"/>
                             <constraint firstItem="HDe-xO-RS8" firstAttribute="top" secondItem="qDa-j1-lFP" secondAttribute="bottom" constant="37" id="bRw-0m-aCW"/>
+                            <constraint firstItem="19b-77-HFr" firstAttribute="leading" secondItem="3" secondAttribute="leading" id="cvd-VV-HGU"/>
                             <constraint firstItem="qDa-j1-lFP" firstAttribute="top" secondItem="NmO-Rt-ZkG" secondAttribute="bottom" constant="39" id="dOD-Ho-vn8"/>
                             <constraint firstItem="fAz-nK-9RS" firstAttribute="top" secondItem="LUh-Rm-Zhk" secondAttribute="bottom" constant="13" id="kJz-4c-0ks"/>
                             <constraint firstItem="n0f-yg-FRc" firstAttribute="top" secondItem="19b-77-HFr" secondAttribute="bottom" id="vdK-px-NFc"/>
+                            <constraint firstItem="19b-77-HFr" firstAttribute="top" secondItem="3" secondAttribute="top" constant="526" id="wFA-fz-6Dc"/>
                         </constraints>
                     </view>
                     <connections>
@@ -127,16 +129,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TXo-Cj-vMc">
-                                <rect key="frame" x="20" y="74" width="280" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TXo-Cj-vMc">
+                                <rect key="frame" x="20" y="92" width="280" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="lmM-Za-9Qq"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ADc-cW-GPA">
-                                <rect key="frame" x="91" y="119" width="139" height="30"/>
+                                <rect key="frame" x="91" y="137" width="139" height="30"/>
                                 <state key="normal" title="Set the colour name">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -145,7 +147,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1m1-Tj-uxI">
-                                <rect key="frame" x="137" y="183" width="48" height="30"/>
+                                <rect key="frame" x="137" y="201" width="48" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Cancel">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -154,6 +156,14 @@
                                     <segue destination="ats-Yp-jvQ" kind="unwind" unwindAction="cancelSetName:" id="Vcw-Vp-cnA"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please name this colour" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WhP-Du-ci6">
+                                <rect key="frame" x="20" y="45" width="280" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
