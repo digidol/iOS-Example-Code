@@ -18,6 +18,7 @@
 		6B88055D16AAE4F2001055D9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B88055C16AAE4F2001055D9 /* Default-568h@2x.png */; };
 		6B88056016AAE4F2001055D9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B88055E16AAE4F2001055D9 /* MainStoryboard.storyboard */; };
 		6B88056316AAE4F2001055D9 /* CNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B88056216AAE4F2001055D9 /* CNViewController.m */; };
+		6BC9046A192DC2A800046339 /* CNNamerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC90469192DC2A800046339 /* CNNamerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		6B88055F16AAE4F2001055D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		6B88056116AAE4F2001055D9 /* CNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNViewController.h; sourceTree = "<group>"; };
 		6B88056216AAE4F2001055D9 /* CNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNViewController.m; sourceTree = "<group>"; };
+		6BC90468192DC2A800046339 /* CNNamerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNNamerViewController.h; sourceTree = "<group>"; };
+		6BC90469192DC2A800046339 /* CNNamerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNNamerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				6B88055E16AAE4F2001055D9 /* MainStoryboard.storyboard */,
 				6B88056116AAE4F2001055D9 /* CNViewController.h */,
 				6B88056216AAE4F2001055D9 /* CNViewController.m */,
+				6BC90468192DC2A800046339 /* CNNamerViewController.h */,
+				6BC90469192DC2A800046339 /* CNNamerViewController.m */,
 				6B88054D16AAE4F2001055D9 /* Supporting Files */,
 			);
 			path = ColourNamer;
@@ -175,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B88055316AAE4F2001055D9 /* main.m in Sources */,
+				6BC9046A192DC2A800046339 /* CNNamerViewController.m in Sources */,
 				6B88055716AAE4F2001055D9 /* CNAppDelegate.m in Sources */,
 				6B88056316AAE4F2001055D9 /* CNViewController.m in Sources */,
 			);
@@ -293,6 +299,7 @@
 				6B88056816AAE4F2001055D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

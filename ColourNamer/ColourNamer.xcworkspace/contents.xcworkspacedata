@@ -7,7 +7,4 @@
    <FileRef
       location = "group:ColourNamer/ColourNamer.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:ColourNamerWithBlocks/ColourNamerWithBlocks.xcodeproj">
-   </FileRef>
 </Workspace>
